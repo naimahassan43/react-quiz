@@ -62,7 +62,7 @@ h4 {
 } */
 
 /* nav component */
-.nav {
+/* .nav {
   display: flex;
   background-color: #fff;
   position: fixed;
@@ -111,7 +111,7 @@ h4 {
   .nav .brand h3 {
     display: none;
   }
-}
+} */
 
 /* layout component */
 .main {
@@ -183,7 +183,7 @@ h4 {
 }
 
 /* account component */
-.account {
+/* .account {
   width: 50%;
   display: flex;
   gap: 0.5rem;
@@ -195,7 +195,7 @@ h4 {
 
 .account > span:last-child {
   cursor: pointer;
-}
+} */
 
 /* signup component */
 .signup {
