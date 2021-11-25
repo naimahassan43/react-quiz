@@ -10,7 +10,7 @@ export default function Signup() {
   return (
     <>
       <h1>Create an account</h1>
-      <div className={classes.column}>
+      <div className="column">
         <Illustration />
         <Form className={`${classes.signup}`}>
           <TextInput type="text" placeholder="Enter name" icon="person" />
@@ -34,12 +34,12 @@ export default function Signup() {
           />
 
           <CheckBox text="I agree to the Terms &amp; Conditions" />
+          <Button>Submit now</Button>
+          <div className="info">
+            Already have an account?
+            <a href="login.html">Login</a> instead.
+          </div>
         </Form>
-        <Button>Submit now</Button>
-        <div className="info">
-          Already have an account?
-          <a href="login.html">Login</a> instead.
-        </div>
       </div>
     </>
   );
